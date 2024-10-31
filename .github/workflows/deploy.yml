@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: sass-embedded
+        run: npm install -D sass-embedded
       - name: Checkout repo
         uses: actions/checkout@v3
 
