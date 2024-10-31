@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: sass-embedded
-        run: npm install -D sass-embedded
+        run: npm i -D sass@npm:sass-embedded@latest
       - name: Checkout repo
         uses: actions/checkout@v3
 
