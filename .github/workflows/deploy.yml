@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Install Dart Sass Embedded # Installs dart-sass
+        run: sudo snap install dart-sass-embedded
+
       # - name: sass-embedded
       #   run: npm install -D sass-embedded
 
@@ -48,6 +51,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
+        #  if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist

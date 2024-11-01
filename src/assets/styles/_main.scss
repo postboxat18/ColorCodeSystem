@@ -1,0 +1,14 @@
+.background {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 0.44rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.copyValue {
+  cursor: copy;
+  font-weight: 500;
+  transition: all 200ms;
+  &:active {
+    color: #d2d2d2;
+  }
+}
