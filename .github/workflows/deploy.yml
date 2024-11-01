@@ -24,8 +24,8 @@ jobs:
       - name: Install sass -embedded
         run: npm install -D sass sass-embedded
 
-      - name: Install bootstrap Sass # Installs dart-sass
-        run: npm install bootstrap-scss
+      - name: Install bootstrap # Installs dart-sass
+        run: npm install bootstrap
 
       - name: Install react-hot-toast
         run: npm install react-hot-toast
