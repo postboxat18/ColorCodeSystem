@@ -22,7 +22,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Install Dart Sass Embedded # Installs dart-sass
-        run: npm install dart-sass-embedded
+        run: npm install bootstrap-scss
 
       # - name: sass-embedded
       #   run: npm install -D sass-embedded
