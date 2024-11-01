@@ -30,8 +30,8 @@ jobs:
       - name: Install react-hot-toast
         run: npm install react-hot-toast
 
-      # - name: sass-embedded
-      #   run: npm install -D sass-embedded
+      - name: react-router-dom
+        run: npm install react-router-dom
 
       - name: Build project
         run: npm run build
