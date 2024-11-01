@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
-      - name: sass-embedded
-        run: npm install -D sass-embedded
+      # - name: sass-embedded
+      #   run: npm install -D sass-embedded
 
       - name: Build project
         run: npm run build
